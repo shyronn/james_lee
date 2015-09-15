@@ -61,7 +61,6 @@ body {
 }
 
 h1 span {
-    margin-top: 1rem;
     margin-left: 1.15rem;
     font-size: 2.5rem;
     font-family: "Aleo";
@@ -190,7 +189,7 @@ aside {
 
 .intro1 {
     margin: 1.25rem 1.15rem 2.15rem 1.15rem;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     line-height: 2.4rem;
     color: #FFEBBC;
 }
@@ -203,7 +202,7 @@ aside {
 
 .shy {
     color: #FFDF91;
-    padding: 5rem 0rem;
+    padding: 2rem 0rem;
     line-height: 3rem;
     letter-spacing: +.09rem;
     background: linear-gradient(304deg, #d8d00d, #0da4d8, #d8d00d);
@@ -365,6 +364,12 @@ h2 {
     font-size: 3rem;
     letter-spacing: +.09rem;
 }
+    
+.shy {
+    padding: 5rem 0rem;
+    line-height: 3rem;
+    letter-spacing: +.09rem;
+}    
     
 .signature {
     width: 15%;
