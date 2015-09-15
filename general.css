@@ -319,20 +319,15 @@ h1 span {
     line-height: 2.25rem;
 }
     
-/*
     hr {
-    width: 20%;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-    margin-right: 1rem;
+    width: 0%;
 }
-*/
   
 .first-hr {
     margin-top: 3rem;
     margin-left: 6rem;
     padding-top: 6px;
-    border-width: 2px;
+    border-width: 3px;
     width: 35%;
 }
     
@@ -349,7 +344,6 @@ h1 span {
 }
     
 .text-right {
-    border-style: none;
     max-width: 30%;
     width: 100%;
 /*    overflow: auto;*/
@@ -361,7 +355,6 @@ h1 span {
 /*    margin-bottom: 1rem;*/
     font-size: 1.1rem;
     line-height: 1.75rem;
-    border-bottom: 2px;
 }
     
 h2 {
