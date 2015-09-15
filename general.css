@@ -62,14 +62,16 @@ body {
 
 h1 span {
     margin: 1.15rem;
-    font-size: 2.6rem;
+    font-size: 2.8rem;
     font-family: "Aleo";
     line-height: 2.25rem;
 /*    color: #F2FF11;*/
     color: white;
     display: block;
-/*    background-color: #CADE1D;*/
-/*    padding: .5rem;*/
+/*
+    background-color: #CADE1D;
+    padding: .5rem;
+*/
 }
 
 /*
@@ -83,7 +85,7 @@ h1 {
 h2 {
     margin: 1.15rem;
     font-family: "Aleo";
-    font-size: 2.2rem;
+    font-size: 2rem;
     letter-spacing: +.09rem;
 }
 
@@ -91,6 +93,7 @@ h3 {
     font-family: "Aleo";
     color: white;
     font-size: 1.5rem;
+    line-height: 2rem;
     letter-spacing: +.15rem;
     background: linear-gradient(304deg, #d8d00d, #0da4d8, #d8d00d);
     background-size: 1000% 400%;
@@ -102,12 +105,17 @@ h3 {
 }
 
 hr {
-    width: 25%;
+    margin-top: 2.5rem;
+    width: 60%;
     margin-left: 1rem;
-    margin-top: 1.5rem;
-    margin-bottom: 2rem;
-    border-width: .3rem;
-    border-color: white;
+    margin-bottom: 2.5rem;
+    border-style: solid;
+    color: lightgrey;
+}
+
+.first-hr {
+    color: #FFEBBC;
+    border-width: .2rem;
 }
 
 /*
@@ -135,17 +143,17 @@ hr {
 .text-right {
     float: right;
     display: inline;
-    margin: 1rem;
-    font-size: 1.25rem;
-    line-height: 2rem;
+    margin: 1rem 1rem 0rem 1rem;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
 }
 
 .first-paragraph::first-line { 
-    background-color: rgba(188, 134, 132, .15);
+    background-color: rgba(188, 134, 132, .13);
 }
 
 .first-paragraph::first-letter{
-    font-size: 2.5rem;
+    font-size: 2.25rem;
 }
 
 /* article, aside {
@@ -177,14 +185,14 @@ aside {
 .intro1 {
     margin: 1.25rem 1.15rem 2.15rem 1.15rem;
     font-size: 1.75rem;
-    line-height: 2.75rem;
+    line-height: 2.5rem;
     color: #FFEBBC;
 }
 
 .intro2 {
-    margin: 1.15rem;
-    font-size: 1.5rem;
-    line-height: 2.25rem;
+    margin: 1.25rem;
+    font-size: 1.3rem;
+    line-height: 2.2rem;
 }
 
 .shy {
@@ -193,10 +201,10 @@ aside {
     line-height: 3rem;
     letter-spacing: +.09rem;
     background: linear-gradient(304deg, #d8d00d, #0da4d8, #d8d00d);
-    background-size: 1200% 300%;
-    -webkit-animation: Billboard 12s ease infinite;
-    -moz-animation: Billboard 12s ease infinite;
-    animation: Billboard 12s ease infinite;
+    background-size: 1000% 250%;
+    -webkit-animation: Billboard 10s ease infinite;
+    -moz-animation: Billboard 10s ease infinite;
+    animation: Billboard 10s ease infinite;
 }
 
 .james {
@@ -206,7 +214,37 @@ aside {
 }
 
 ul {
-margin: 1rem;
+list-style-type: none;
+color: white;
+}
+
+.nav-bottom a:link,
+.nav-bottom a:visited {
+    color: white;
+    text-decoration: none;
+    font-size: .875rem;
+    letter-spacing: +.04rem;
+    line-height: 1.5rem;
+}
+
+.nav-bottom ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 1rem;
+}
+
+.nav-bottom a:hover {
+    color: dimgray;
+}
+
+footer {
+    margin:0;
+    padding: 2.5rem 0rem 4rem;
+    background: linear-gradient(304deg, #d8d00d, #0da4d8, #d8d00d);
+    background-size: 1000% 400%;
+    -webkit-animation: Billboard 14s ease infinite;
+    -moz-animation: Billboard 14s ease infinite;
+    animation: Billboard 14s ease infinite;
 }
 
 /*#####################iPad###################*/
@@ -223,16 +261,32 @@ margin: 1rem;
     font-size: 2.25rem;
     line-height: 3.5rem;
     width: 80%;
+}
         
-    p {
-    color: red;
-    }
+    .intro2 {
+    width: 80%;
 }
 
+    .text-right {
+    width: 75%;
+    float: left;
+}
 
 /*#####################iMac###################*/
         
 @media screen and (min-width: 1040px) {
+    
+    .shy {
+    color: #FFDF91;
+    padding: 5rem 0rem;
+    line-height: 3rem;
+    letter-spacing: +.09rem;
+    background: linear-gradient(304deg, #d8d00d, #0da4d8, #d8d00d);
+    background-size: 750% 300%;
+    -webkit-animation: Billboard 10s ease infinite;
+    -moz-animation: Billboard 10s ease infinite;
+    animation: Billboard 10s ease infinite;
+}
     
     h1 span {
     font-size: 5rem;
@@ -246,37 +300,102 @@ margin: 1rem;
     width: 70%;
     margin-left: 6rem;
 }
-    hr {
-    width: 30%;
-    padding: .3rem;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
+    
+    .intro2 {
     margin-left: 6rem;
-    border-width: .4rem;
-    border-color: white;
+    margin-bottom: 4rem;
+    width: 65%;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
 }
     
-    p{
-    color: yellowgreen;
-    }
+    hr {
+    width: 20%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-right: 1rem;
+}
+    
+    .first-hr {
+    margin-top: 3rem;
+    margin-left: 6rem;
+    padding-top: 6px;
+    border-width: 2px;
+    width: 35%;
+}
+    
+/*    img {
+    width: 65%;
+    float: left;
+*/
+    
+    .image {
+    border-style: solid;
+    max-width: 65%;
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+    float: left;
+}
+    
+    .text-right {
+    border-style: none;
+    max-width: 31%;
+    width: 100%;
+    overflow: auto;
+    float: right;
+    display: inline;
+    margin: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.75rem;
+}
     
     h2 {
     margin: 6rem;
+    margin-bottom: 2rem;
     font-size: 3rem;
     letter-spacing: +.09rem;
 }
     h3 {
-    margin-left: 6rem;
-    font-size: 2rem;
-    h3 {
+    padding-left: 6rem;
+    height: 8rem;
+    font-size: 2.4rem;
+    line-height: 3rem;
     font-family: "Aleo";
     color: white;
-    font-size: 1.5rem;
     letter-spacing: +.15rem;
     background: linear-gradient(304deg, #d8d00d, #0da4d8, #d8d00d);
-    background-size: 200% 50%;
-    -webkit-animation: Billboard .2s ease infinite;
-    -moz-animation: Billboard .2s ease infinite;
-    animation: Billboard .2s ease infinite;
-    }
+    background-size: 700% 100%;
+    -webkit-animation: Billboard 10s ease infinite;
+    -moz-animation: Billboard 10s ease infinite;
+    animation: Billboard 10s ease infinite;
+}
+
+.first-paragraph::first-line { 
+    background-color: rgba(188, 134, 132, .13);
+}
+
+.first-paragraph::first-letter{
+    font-size: 2.25rem;
+}
+    
+.nav-bottom a:link,
+.nav-bottom a:visited {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+
+.nav-bottom ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 6rem;
+}
+
+footer {
+    margin:0;
+    padding: 2.2rem 0rem 3rem;
 }
