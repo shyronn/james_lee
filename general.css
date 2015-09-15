@@ -334,7 +334,6 @@ footer {
     max-width: 65%;
     width: 100%;
     margin: 0 auto;
-    overflow: auto;
     float: left;
 }
     
@@ -399,3 +398,7 @@ footer {
     margin:0;
     padding: 2.2rem 0rem 3rem;
 }
+    
+article{
+    overflow: hidden;
+    }
