@@ -128,6 +128,11 @@ hr {
 }
 */
 
+.signature {
+    width: 30%;
+    margin-left: 2rem;
+}
+
 .image {
     max-width: 1500px;
     width: 100%;
@@ -252,22 +257,27 @@ footer {
 
     @media screen and (min-width: 580px) {
     
-    h1 span {
+h1 span {
     font-size: 4rem;
     line-height: 4rem;
     }
-    
-    .intro1 {
+        
+ .signature {
+    width: 20%;
+    margin-left: 2rem;
+}
+        
+.intro1 {
     font-size: 2.25rem;
     line-height: 3.5rem;
     width: 80%;
 }
         
-    .intro2 {
+.intro2 {
     width: 80%;
 }
 
-    .text-right {
+.text-right {
     width: 75%;
     float: left;
 }
@@ -276,7 +286,7 @@ footer {
         
 @media screen and (min-width: 1040px) {
     
-    .shy {
+.shy {
     color: #FFDF91;
     padding: 5rem 0rem;
     line-height: 3rem;
@@ -288,22 +298,22 @@ footer {
     animation: Billboard 10s ease infinite;
 }
     
-    h1 span {
+h1 span {
     font-size: 5rem;
     line-height: 5.25rem;
     margin-left: 6rem;
 }
     
-    .intro1 {
+.intro1 {
     font-size: 2.5rem;
     line-height: 3.5rem;
     width: 70%;
     margin-left: 6rem;
 }
     
-    .intro2 {
+.intro2 {
     margin-left: 6rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     width: 65%;
     font-size: 1.5rem;
     line-height: 2.25rem;
@@ -317,8 +327,8 @@ footer {
     margin-right: 1rem;
 }
 */
-    
-    .first-hr {
+  
+.first-hr {
     margin-top: 3rem;
     margin-left: 6rem;
     padding-top: 6px;
@@ -331,15 +341,14 @@ footer {
     float: left;
 */
     
-    .image {
-    border-style: solid;
+.image {
     max-width: 65%;
     width: 100%;
     margin: 0 auto;
     float: left;
 }
     
-    .text-right {
+.text-right {
     border-style: none;
     max-width: 30%;
     width: 100%;
@@ -355,13 +364,20 @@ footer {
     border-bottom: 2px;
 }
     
-    h2 {
+h2 {
     margin: 6rem;
     margin-bottom: 2rem;
     font-size: 3rem;
     letter-spacing: +.09rem;
 }
-    h3 {
+    
+.signature {
+    width: 15%;
+    margin-top: 0rem;
+    margin-left: 8rem;
+}
+    
+h3 {
     padding-left: 6rem;
     font-size: 2.4rem;
     line-height: 3rem;
